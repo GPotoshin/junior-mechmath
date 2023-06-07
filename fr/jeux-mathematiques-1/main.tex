@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\usepackage{blindtext}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=25mm,
+    right=25mm,
+    top=15mm,
+}
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{nccmath}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french, russian]{babel}
+
+\setlength{\parindent}{0mm}
+
+\title{
+\textit{\small{Georgii Potoshin, 2023}}\\
+\vspace{0.3ex}
+\textit{\huge{Jeux mathématiques-1 : stratégies explicites}}\vspace{1ex}
+}
+
+\date{\vspace{-8ex}}
+
+\begin{document}
+\maketitle
+
+\textbf{Stratégie} La \emph{stratégie} est l'ensemble des règles selon lesquelles un joueur doit effectuer ses mouvements en fonction des mouvements précédents de son adversaire et de sa position actuelle. Pour le joueur qui joue le premier coup, la stratégie doit inclure le choix du premier coup. 
+\par
+\vspace{3ex}
+\begin{center}\textsc{\Large{Jeux de blague}}\end{center}
+\begin{enumerate}
+    \item Il y a 100 unités sur la ligne. Maxim et Bernard placent à tour de rôle un signe plus ou moins entre deux unités adjacentes. Lorsque tous les chiffres voisins ont été placés entre eux, le résultat est calculé. Si le résultat est pair, Maxim gagne, sinon Bernard gagne. Qui gagne si Maxim commence ?
+    \item Il y a 10 uns et 10 deux écrits sur le tableau. Deux joueurs jouent selon les règles suivantes : en un tour, ils peuvent effacer deux chiffres quelconques et, s'ils sont identiques, écrire un deux, et s'ils sont différents, écrire un un. Si le dernier chiffre restant sur le tableau est un 1, le premier joueur gagne, si c'est un 2, le deuxième joueur gagne. Qui gagne ?
+	\item Marie et Ioan cassent à tour de rôle une barre de chocolat 6×8. En un seul coup, n'importe quelle pièce peut être cassée en ligne droite le long de l'encoche. Le perdant est celui qui n'a pas réussi à faire un mouvement. Qui gagne si c'est Marie qui casse en premier ?
+\end{enumerate}
+\vspace{1ex}
+\begin{center}\textsc{\Large{Stratégies symétriques}}\end{center}
+\begin{enumerate}
+    \item Ostap Bender a joué une partie d'échecs simultanée avec deux grands maîtres, dont l'un avec des pièces noires et l'autre avec des pièces blanches. Ostap a reçu 1 point pour cette session. (La victoire d'une partie d'échecs rapporte 1 point, le match nul un demi-point et la défaite 0 point). Comment a-t-il réussi à obtenir ce résultat ?
+    \item Deux personnes placent à tour de rôle des pièces sur la table ronde, de manière à ce qu'elles ne se chevauchent pas. Celui qui ne peut pas faire un mouvement perd. Qui gagne si le jeu est joué correctement ?
+    \item Il y a deux piles : l'une contient 20 allumettes et l'autre 30. Deux personnes prennent des allumettes à tour de rôle. Le nombre d'allumettes autorisées par tour est illimité, mais elles ne peuvent provenir que d'une seule pile. Le perdant est celui qui n'a pas réussi à faire un mouvement. Qui gagne si le jeu est joué correctement ?
+    \item Il y a un pion dans chaque case du plateau 7×7. Deux personnes se relaient pour retirer un nombre quelconque de pions consécutifs du plateau, soit d'une rangée verticale, soit d'une rangée horizontale. Le gagnant est celui qui a retiré le dernier pion. Indiquez la stratégie du premier joueur.
+    \item Il y a 50 pierres dans la pile. Deux personnes ajoutent à tour de rôle entre 1 et 9 pierres. Le gagnant est celui qui porte le nombre de pierres à 200. Qui sera le premier ou le deuxième ?
+	\item Les élèves Dot et Lemon mangent 40 profiteroles. Deux, trois ou quatre profiteroles peuvent être mangées en un tour. Le perdant est celui qui ne peut pas faire le mouvement. Qui gagne les profiteroles si Dot commence ?
+	\item Le jeu "Basche".\\
+		\textbf{a)} On dispose d'une bande de papier à carreaux de 10 cases. Un pion se trouve sur la case la plus à droite. Deux joueurs se relaient pour le déplacer vers la gauche d'une ou deux cases. Le perdant est celui qui n'a nulle part où aller.\\
+		\textbf{b)} Qui gagne au Baché si la longueur de la bande est de 11 cases ? 12 cases ? 13 cases ? 2000 cases ?\\
+		\textbf{c)} Changez les règles du jeu "Bachet" : maintenant un déplacement d'un pion sur 1, 2, 3, 4 ou 5 cases est possible et la longueur de la bande est de 13 cases.\\
+		\textbf{d)} Dans le jeu Baché, il est possible de déplacer un pion sur 3, 6, 9 ou 12 cases et la longueur de la bande est de 40 cases.\\
+\end{enumerate}
+\end{document}
