@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\usepackage{blindtext}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=25mm,
+    right=25mm,
+    top=10mm,
+}
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{nccmath}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french, russian]{babel}
+
+\setlength{\parindent}{0mm}
+
+\title{
+\textit{\small{Georgii Potoshin, 2023, малый мехмат}}\\
+\vspace{0.3ex}
+\textit{\huge{Principe de Dirichlet \\ (des tiroirs)}}\vspace{1ex}
+}
+
+\date{\vspace{-8ex}}
+
+\begin{document}
+\maketitle
+\textbf{Principe de Dirichlet.} Si $n$ chaussettes occupent $m$ tiroirs, et si $n > m$, alors au moins un tiroir doit contenir strictement plus d'une chaussette.
+\par
+\vspace{3ex}
+\textbf{Remarque.} De manière plus générale, nous constatons que au moins un tiroir doit contenir strictement plus que la partie entière de fraction $n/m$ de chaussette.
+\par
+\vspace{3ex}
+\textbf{Exemple.} Si $7$ chaussettes occupent $2$ tiroirs, alors la partie entière de $\frac{7}{2}$ est $3$, car $\frac{7}{2} = 3 + \frac{1}{2} = 3\frac{1}{2}$. Selon le principe de Dirichlet, nous trouvons un tiroir contenant plus que 3 chaussettes. Pour le vérifier, il suffit de regarder ce qui se passe si toutes les boîtes contiennent moins de quatre chaussettes, alors au mieux chaque boîte contient trois chaussettes et le total est de six, ce qui est inférieur à sept, ce qui signifie que l'on trouvera toujours une boîte contenant plus de trois chaussettes.
+\par
+\vspace{2ex}
+\begin{center}\textsc{\Large{Exercices pour la discussion}}\end{center}
+\begin{enumerate}
+    \item Huit lapins sont placés dans sept cages. Prouvez qu'il existe une cage contenant au moins deux lapins.
+    
+    \item L'équipe de 4 a reçu 10 bonbons pour avoir gagné la régate de mathématiques. Les enfants se sont répartis les bonbons sans les casser. Déterminez si les affirmations suivantes sont vraies :
+    \par
+    \textbf{a)} "quelqu'un a reçu au moins deux bonbons" ;\\
+    \textbf{b)} "quelqu'un a reçu au moins trois bonbons" ;\\
+    \textbf{c)} "deux personnes ont reçu au moins deux bonbons" ;\\
+    \textbf{d)} "Tout le monde a reçu au moins un bonbon".
+
+    \item Dans une pièce sombre, une armoire contient 24 chaussettes noires et 24 chaussettes bleues.
+    \par
+    \textbf{a)} Quel est le nombre minimum de chaussettes qu'il faut sortir de l'armoire pour pouvoir confectionner au moins une paire de chaussettes de la même couleur ? \\
+    \textbf{b)} Quel est le nombre minimum de chaussettes nécessaires pour obtenir au moins une paire de chaussettes noires ? \\
+    \textbf{c)} Comment la solution du problème changerait-elle s'il y avait 12 paires de chaussures noires et 12 paires de chaussures bleues dans la boîte et que vous deviez fabriquer une paire d'une couleur (comme dans a) et une paire de chaussures noires (comme dans b) ? (Les chaussures, contrairement aux chaussettes, existent à gauche et à droite.).
+
+    \item Un million de sapins de Noël poussent dans la forêt. On sait que chacun d'entre eux ne possède pas plus de 600 000 aiguilles. Prouvez qu'il existe deux arbres de Noël ayant le même nombre d'aiguilles.
+
+    \item Une école compte 30 classes et 1 000 élèves. Prouvez qu'il existe une classe d'au moins 34 élèves.
+
+    \item Dans un tapis carré de 4 mètres de côté, une mite a fait 15 trous. Prouvez qu'il est possible de découper dans ce tapis un tapis d'un mètre de côté qui n'aura pas de trous.
+
+    \item Lors de la finale du championnat scolaire de basket-ball, l'équipe 5A a marqué 9 buts. Prouvez qu'il y a 2 joueurs dans cette équipe qui ont marqué même nombre de buts. (L'équipe de basket compte 5 joueurs.)
+    
+\end{enumerate}
+
+\end{document}
