@@ -5,7 +5,7 @@ Here is a translation of their materials to others languages, I've started with 
 
 ### Pull requests
 If you desire to do a pull request, please use the same style. 
-However, you can put your name on the file if you like, replacing mine with.
+However, you can put your name on the file if you like, replacing mine with it.
 
 ### Source
 http://mmmf.msu.ru/for_schools/
